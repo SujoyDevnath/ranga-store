@@ -8,9 +8,6 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
-.row {
-  padding: 30px 10px;
-}
 
 /* search styling */
 .search-field {
@@ -40,6 +37,9 @@ body {
 }
 
 /* product styling */
+.row {
+  padding: 30px 10px;
+}
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
